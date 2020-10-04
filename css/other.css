@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 100%;
+    font-size: 22px;
     background: #d3d3d3;
     color: rgb(0, 0, 0);
     overflow-x: hidden;
@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 h3 {
