@@ -1,9 +1,11 @@
+
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #d3d3d3;
     color: black;
     padding-top: 0px;
     scroll-margin-top: 70px;
@@ -63,9 +65,9 @@
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid  rgb(200, 200, 200);
+    border: medium solid  white;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent  rgb(200, 200, 200);
+    border-color: transparent transparent transparent  white;
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -77,9 +79,9 @@
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid  rgb(200, 200, 200);
+    border: medium solid  white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgb(200, 200, 200) transparent transparent;
+    border-color: transparent white transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
@@ -90,7 +92,7 @@
   /* The actual content */
   .tlcontent {
     padding: 20px 30px;
-    background-color: rgb(200, 200, 200);
+    background-color: white;
     position: relative;
     border-radius: 6px;
   }
@@ -114,7 +116,7 @@
         left: 60px;
         border: medium solid white;
         border-width: 10px 10px 10px 0;
-        border-color: transparent rgb(200, 200, 200) transparent transparent;
+        border-color: transparent white transparent transparent;
     }
   
     /* Make sure all circles are at the same spot */
@@ -127,3 +129,10 @@
     left: 0%;
     }
   }
+
+  .tllogo{
+    width: 50px;
+    height: 50px;
+  }
+  
+  
