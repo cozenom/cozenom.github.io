@@ -1,8 +1,7 @@
 <h1> HTML/CSS/Javascript Website for personal portfolio </h1>
-
-<h2> Author: David Pan </h2>
-
 <p>
+Author: David Pan
+
 Class Link: https://johnguerra.co/classes/webDevelopment_fall_2020/
 
 Project Objective: Build a personal website to practice HTML/CSS/Javascript. 
@@ -11,3 +10,6 @@ Project Objective: Build a personal website to practice HTML/CSS/Javascript.
 <h3>Screenshots: </h3>
 <img src="/images/screenshots/screenshot1.png" alt="Screenshot of homepage">
 <img src="/images/screenshots/screenshot2.png" alt="Screenshot of travelling page, pics section">
+
+<h4>License:</h4>
+<p>License vailable <a href="/LICENSE">here</a></p>
