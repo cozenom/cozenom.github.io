@@ -11,5 +11,5 @@ Project Objective: Build a personal website to practice HTML/CSS/Javascript.
 <img src="/images/screenshots/screenshot1.png" alt="Screenshot of homepage">
 <img src="/images/screenshots/screenshot2.png" alt="Screenshot of travelling page, pics section">
 
-<h4>License:</h4>
-<p>License vailable <a href="/LICENSE">here</a></p>
+<h3>License:</h3>
+<p>Available <a href="/LICENSE">here</a></p>
