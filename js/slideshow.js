@@ -3,11 +3,13 @@ var slideIndex = 1;
 showSlides(slideIndex);
 
 // Moving left/right
+// eslint-disable-next-line no-unused-vars
 function plusSlides(n) {
   showSlides((slideIndex += n));
 }
 
 // Instant travel
+// eslint-disable-next-line no-unused-vars
 function setSlide(n) {
   showSlides((slideIndex = n));
 }
