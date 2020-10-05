@@ -1,12 +1,12 @@
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 22px;
     background: #d3d3d3;
     color: rgb(0, 0, 0);
     overflow-x: hidden;
-  }  
+}
 
 html {
     scroll-behavior: smooth;
@@ -51,22 +51,22 @@ h4 {
 
 .parallaxm {
     /* Set a specific height */
-    min-height: 400px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+    min-height: 400px;
 
-  .parallaxl {
-    /* Set a specific height */
-    min-height: 1000px; 
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+.parallaxl {
+    /* Set a specific height */
+    min-height: 1000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
