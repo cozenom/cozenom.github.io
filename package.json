@@ -1,5 +1,5 @@
 {
-  "name": "DavidP_Website",
+  "name": "davidwebsite",
   "version": "1.0.0",
   "description": "Personal Website for Web Development Class",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cozenom/cozenom.github.io.git"
+    "url": "git+https://github.com/cozenom/cozenoms.github.io.git"
   },
   "dependencies": {},
   "devDependencies": {
@@ -24,8 +24,5 @@
   ],
   "author": "David Pan",
   "license": "MIT",
-  "homepage": "https://cozenom.github.io",
-  "devDependencies": {
-    "eslint": "^7.10.0"
-  }
+  "homepage": "https://cozenom.github.io"
 }
