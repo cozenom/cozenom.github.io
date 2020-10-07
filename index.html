@@ -11,6 +11,15 @@
 
     <title>DavidP | Homepage</title>
 
+    <!-- 
+      NIT: I noticed you download bootstrap and all of its dependencies, and you want to host them under your github public url.
+      This is not inappropriate technically. However, I do recommend you to use CDN like this https://getbootstrap.com/docs/4.5/getting-started/introduction/#css.
+      'CDN refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.'
+      (https://www.cloudflare.com/learning/cdn/what-is-a-cdn/). So, no matter where you are, CDN is likely to send the content to your browser quickly and reliably.
+      In general, CDN should be your default option, because Bootstrap spends a lot of money putting their stuff on CDN. It must make sense in this way. 
+      But in some situtations you should consider if it's appropriate to use CDN. As far as I know, some CDNs are blocked by Chinese government. 
+      So it's not always the good way to go.
+    -->
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap_copy.css" rel="stylesheet" />
 
@@ -225,6 +234,10 @@
       </div>
     </footer>
 
+    <!-- 
+      The same as what I have commented above. Check this.
+      https://getbootstrap.com/docs/4.5/getting-started/introduction/#js
+    -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
