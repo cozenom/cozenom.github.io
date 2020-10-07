@@ -15,6 +15,12 @@ function setSlide(n) {
 }
 
 // Function to change slides
+/*
+The code looks correct. Actually, Bootstrap has a component called Carousel. It could be configured using data attributes.
+https://getbootstrap.com/docs/4.0/components/carousel/
+e.g. the interval of auto-cycling (or stop auto-cycling), if it could be controlled by keyboard, etc.
+Carousel might be more readable to other guys. Anyway, good job over here!
+*/
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
